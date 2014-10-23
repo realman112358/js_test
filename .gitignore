@@ -1,2 +1,4 @@
 .idea/*
 node/node_modules/*
+node/download/*
+node/coverage/*

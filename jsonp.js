@@ -9,7 +9,12 @@ function init(){
         //alert(data.a);
     });
     */
-    $.post("http://localhost/test/cors.php", function(data){
-        alert(data);
-    });
+    //$.post("http://localhost/php_test/test.php", back);
+    setTimeout(change, 1000*3);
+}
+function back(data){
+    alert(data);
+}
+function change(){
+    $('#test').html(456);
 }
